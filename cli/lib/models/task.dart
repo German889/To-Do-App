@@ -7,6 +7,8 @@ class Task {
 
   //getter для получения названия задачи
   String get title => _title;
+  DateTime get dueDate => _dueDate;
+  bool get isDone => _isDone;
   //setter для установки статуса задачи
   set isDone(bool value) {
     _isDone = value;
